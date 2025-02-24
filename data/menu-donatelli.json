@@ -1,0 +1,798 @@
+{
+  "id": "menu",
+  "name": "Menu",
+  "categories": [
+    {
+      "id": "5f4d166ed8eef50017ed883c",
+      "name": "Antipasti",
+      "items": [
+        {
+          "id": "633b209b729f020016122b1a",
+          "name": "Gnocco fritto con salumi e giardiniera",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 8,
+          "image": {
+            "imageID": "9e582152-9926-49a7-bde4-8ea7d88230af",
+            "url": "https://firebasestorage.googleapis.com/v0/b/ordify-8d2cc.appspot.com/o/images%2Fitems%2F9e582152-9926-49a7-bde4-8ea7d88230af?alt=media&token=4ef591c0-7b25-4146-b83b-a72da7000f7a",
+            "filename": null,
+            "size": 79434,
+            "imageType": "image/jpeg"
+          },
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "5f4d17c9d8eef50017ed884e",
+          "name": "Baccalà mantecato",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 8,
+          "image": {
+            "imageID": "f911fb95-eb27-4804-b1aa-396fa4a29692",
+            "url": "https://firebasestorage.googleapis.com/v0/b/ordify-8d2cc.appspot.com/o/images%2Fitems%2Ff911fb95-eb27-4804-b1aa-396fa4a29692?alt=media&token=6a161f71-d8f1-4350-bdc2-ba492a544cd0",
+            "filename": null,
+            "size": 29500,
+            "imageType": "image/jpeg"
+          },
+          "options": [],
+          "discountPercentage": null
+        }
+      ],
+      "options": [],
+      "discountPercentage": null
+    },
+    {
+      "id": "5f4d1674d8eef50017ed883e",
+      "name": "Primi piatti",
+      "items": [
+        {
+          "id": "5f4d1816d8eef50017ed884f",
+          "name": "Maltagliati al ragù di fagiano",
+          "description": "",
+          "ingredients": [
+            {
+              "id": "647f5574fa9acf673cc6fcfb",
+              "name": "maltagliati"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fcfc",
+              "name": "ragù di fagiano"
+            }
+          ],
+          "allergens": [],
+          "price": 9,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        }
+      ],
+      "options": [],
+      "discountPercentage": null
+    },
+    {
+      "id": "5f4d1687d8eef50017ed8842",
+      "name": "Secondi piatti di Carne",
+      "items": [
+        {
+          "id": "5f4d18bfd8eef50017ed8851",
+          "name": "Tagliata con crema al rum e bacon croccante",
+          "description": "",
+          "ingredients": [
+            {
+              "id": "647f5574fa9acf673cc6fd57",
+              "name": "tagliata di manzo"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd58",
+              "name": "crema al rum"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd59",
+              "name": "bacon"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd5a",
+              "name": "radicchio"
+            }
+          ],
+          "allergens": [],
+          "price": 14,
+          "image": {
+            "imageID": "5e0a86dd-5aec-4f88-8fe1-e9580722ea7a",
+            "url": "https://firebasestorage.googleapis.com/v0/b/ordify-8d2cc.appspot.com/o/images%2Fitems%2F5e0a86dd-5aec-4f88-8fe1-e9580722ea7a?alt=media&token=4093d2a7-f0ba-4ea5-bd60-4c74d2f01cb2",
+            "filename": null,
+            "size": 45268,
+            "imageType": "image/jpeg"
+          },
+          "options": [],
+          "discountPercentage": null
+        }
+      ],
+      "options": [],
+      "discountPercentage": null
+    },
+    {
+      "id": "5f4d167dd8eef50017ed8840",
+      "name": "Secondi piatti di Pesce",
+      "description": null,
+      "items": [
+        {
+          "id": "5f4d186bd8eef50017ed8850",
+          "name": "Fritto misto di pesce d’acqua dolce",
+          "description": "",
+          "ingredients": [
+            {
+              "id": "647f5575fa9acf673cc6fd60",
+              "name": "anguilla"
+            },
+            {
+              "id": "647f5575fa9acf673cc6fd61",
+              "name": "pesce gatto"
+            },
+            {
+              "id": "647f5575fa9acf673cc6fd62",
+              "name": "rane"
+            },
+            {
+              "id": "647f5575fa9acf673cc6fd63",
+              "name": "pesciolino"
+            },
+            {
+              "id": "647f5575fa9acf673cc6fd64",
+              "name": "saltarei"
+            }
+          ],
+          "allergens": [],
+          "price": 14,
+          "image": {
+            "imageID": "d38cd5e9-9bf6-498d-9039-3d96a38ab1d2",
+            "url": "https://firebasestorage.googleapis.com/v0/b/ordify-8d2cc.appspot.com/o/images%2Fitems%2Fd38cd5e9-9bf6-498d-9039-3d96a38ab1d2?alt=media&token=9b2b989c-3d08-4674-bcec-9349cbb3f1e4",
+            "filename": null,
+            "size": 34553,
+            "imageType": "image/jpeg"
+          },
+          "options": [],
+          "discountPercentage": null
+        }
+      ],
+      "options": [],
+      "discountPercentage": null
+    },
+    {
+      "id": "5f57e4b25972580017f59b4b",
+      "name": "Pizze",
+      "description": null,
+      "items": [
+        {
+          "id": "5f57e9595972580017f59b5a",
+          "name": "Siciliana",
+          "description": "",
+          "ingredients": [
+            {
+              "id": "647f5574fa9acf673cc6fd0c",
+              "name": "Pomodoro"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd0d",
+              "name": "Mozzarella"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd0e",
+              "name": "acciughe"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd0f",
+              "name": "origano"
+            }
+          ],
+          "allergens": [],
+          "price": 6,
+          "options": [
+            "5f57ebc15972580017f59b66",
+            "5f57ec3c5972580017f59b88",
+            "5f57eca25972580017f59bb5"
+          ],
+          "discountPercentage": null
+        },
+        {
+          "id": "5f57e7e05972580017f59b4f",
+          "name": "Simpson",
+          "description": "",
+          "ingredients": [
+            {
+              "id": "647f5574fa9acf673cc6fd11",
+              "name": "Pomodoro"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd12",
+              "name": "Mozzarella"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd13",
+              "name": "Prosciutto cotto"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd14",
+              "name": "wurstel"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd15",
+              "name": "patate al forno"
+            }
+          ],
+          "allergens": [],
+          "price": 7,
+          "image": null,
+          "options": [
+            "5f57ebc15972580017f59b66",
+            "5f57ec3c5972580017f59b88",
+            "5f57eca25972580017f59bb5"
+          ],
+          "discountPercentage": null
+        },
+        {
+          "id": "633b205e729f020016122b0a",
+          "name": "Sole",
+          "description": "",
+          "ingredients": [
+            {
+              "id": "647f5574fa9acf673cc6fd17",
+              "name": "Pomodoro"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd18",
+              "name": "Mozzarella"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd19",
+              "name": "stracchino"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd1a",
+              "name": "patate al forno"
+            }
+          ],
+          "allergens": [],
+          "price": 6,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "5f57e8135972580017f59b51",
+          "name": "Speck",
+          "description": "",
+          "ingredients": [
+            {
+              "id": "647f5574fa9acf673cc6fd1c",
+              "name": "Pomodoro"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd1d",
+              "name": "Mozzarella"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd1e",
+              "name": "speck"
+            }
+          ],
+          "allergens": [],
+          "price": 6,
+          "image": null,
+          "options": [
+            "5f57ebc15972580017f59b66",
+            "5f57ec3c5972580017f59b88",
+            "5f57eca25972580017f59bb5"
+          ],
+          "discountPercentage": null
+        },
+        {
+          "id": "5f57e8685972580017f59b52",
+          "name": "Speck e brie",
+          "description": "",
+          "ingredients": [
+            {
+              "id": "647f5574fa9acf673cc6fd20",
+              "name": "Pomodoro"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd21",
+              "name": "speck"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd22",
+              "name": "brie"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd23",
+              "name": "Mozzarella"
+            }
+          ],
+          "allergens": [],
+          "price": 6,
+          "image": null,
+          "options": [
+            "5f57ebc15972580017f59b66",
+            "5f57ec3c5972580017f59b88",
+            "5f57eca25972580017f59bb5"
+          ],
+          "discountPercentage": null
+        },
+        {
+          "id": "5f57e8875972580017f59b53",
+          "name": "Taleggio e speck",
+          "description": "",
+          "ingredients": [
+            {
+              "id": "647f5574fa9acf673cc6fd25",
+              "name": "Pomodoro"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd26",
+              "name": "Mozzarella"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd27",
+              "name": "taleggio"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd28",
+              "name": "speck"
+            }
+          ],
+          "allergens": [],
+          "price": 6,
+          "image": null,
+          "options": [
+            "5f57ebc15972580017f59b66",
+            "5f57ec3c5972580017f59b88",
+            "5f57eca25972580017f59bb5"
+          ],
+          "discountPercentage": null
+        },
+        {
+          "id": "5f57e8ab5972580017f59b54",
+          "name": "Texana",
+          "description": "",
+          "ingredients": [
+            {
+              "id": "647f5574fa9acf673cc6fd2a",
+              "name": "Pomodoro"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd2b",
+              "name": "Mozzarella"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd2c",
+              "name": "Salsiccia"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd2d",
+              "name": "salame piccante"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd2e",
+              "name": "fagioli"
+            }
+          ],
+          "allergens": [],
+          "price": 7,
+          "image": null,
+          "options": [
+            "5f57ebc15972580017f59b66",
+            "5f57ec3c5972580017f59b88",
+            "5f57eca25972580017f59bb5"
+          ],
+          "discountPercentage": null
+        },
+        {
+          "id": "5f57e8c05972580017f59b55",
+          "name": "Tonno e cipolla",
+          "description": "",
+          "ingredients": [
+            {
+              "id": "647f5574fa9acf673cc6fd30",
+              "name": "Pomodoro"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd31",
+              "name": "Mozzarella"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd32",
+              "name": "tonno"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd33",
+              "name": "cipolla"
+            }
+          ],
+          "allergens": [],
+          "price": 6,
+          "image": null,
+          "options": [
+            "5f57ebc15972580017f59b66",
+            "5f57ec3c5972580017f59b88",
+            "5f57eca25972580017f59bb5"
+          ],
+          "discountPercentage": null
+        },
+        {
+          "id": "633b2084729f020016122b12",
+          "name": "Tris",
+          "description": "",
+          "ingredients": [
+            {
+              "id": "647f5574fa9acf673cc6fd35",
+              "name": "Pomodoro"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd36",
+              "name": "Mozzarella"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd37",
+              "name": "melanzane"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd38",
+              "name": "spinaci"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd39",
+              "name": "ricotta"
+            }
+          ],
+          "allergens": [],
+          "price": 7,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "5f57e8fd5972580017f59b57",
+          "name": "Verdure",
+          "description": "",
+          "ingredients": [
+            {
+              "id": "647f5574fa9acf673cc6fd3b",
+              "name": "Pomodoro"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd3c",
+              "name": "Mozzarella"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd3d",
+              "name": "melanzane"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd3e",
+              "name": "zucchine"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd3f",
+              "name": "peperoni"
+            }
+          ],
+          "allergens": [],
+          "price": 6,
+          "image": null,
+          "options": [
+            "5f57ebc15972580017f59b66",
+            "5f57ec3c5972580017f59b88",
+            "5f57eca25972580017f59bb5"
+          ],
+          "discountPercentage": null
+        },
+        {
+          "id": "5f57e90e5972580017f59b58",
+          "name": "Viennese",
+          "description": "",
+          "ingredients": [
+            {
+              "id": "647f5574fa9acf673cc6fd41",
+              "name": "Pomodoro"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd42",
+              "name": "Mozzarella"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd43",
+              "name": "wurstel"
+            }
+          ],
+          "allergens": [],
+          "price": 5,
+          "image": null,
+          "options": [
+            "5f57ebc15972580017f59b66",
+            "5f57ec3c5972580017f59b88",
+            "5f57eca25972580017f59bb5"
+          ],
+          "discountPercentage": null
+        }
+      ],
+      "options": [
+        {
+          "id": "5f57ebc15972580017f59b66",
+          "label": "Dimensione pizza",
+          "choises": [
+            {
+              "id": "647f5557fa9acf673cc6fc8d",
+              "label": "Normale",
+              "visible": true,
+              "price": 0
+            },
+            {
+              "id": "647f5557fa9acf673cc6fc8e",
+              "label": "Gigante",
+              "visible": true,
+              "price": 3
+            },
+            {
+              "id": "647f5557fa9acf673cc6fc8f",
+              "label": "Baby",
+              "visible": true,
+              "price": 0
+            }
+          ],
+          "maxChoisesSelectable": 1,
+          "required": true
+        },
+        {
+          "id": "5f57ec3c5972580017f59b88",
+          "label": "Tipo di impasto",
+          "choises": [
+            {
+              "id": "647f5557fa9acf673cc6fc97",
+              "label": "Doppio impasto",
+              "visible": true,
+              "price": 2
+            },
+            {
+              "id": "647f5557fa9acf673cc6fc98",
+              "label": "Impasto integrale",
+              "visible": true,
+              "price": 1
+            },
+            {
+              "id": "647f5557fa9acf673cc6fc99",
+              "label": "Impasto di soia",
+              "visible": true,
+              "price": 1
+            }
+          ],
+          "maxChoisesSelectable": 1,
+          "required": false
+        },
+        {
+          "id": "5f57eca25972580017f59bb5",
+          "label": "Aggiunte extra",
+          "choises": [
+            {
+              "id": "647f5557fa9acf673cc6fca5",
+              "label": "Mozzarella senza lattosio",
+              "visible": true,
+              "price": 1
+            },
+            {
+              "id": "647f5557fa9acf673cc6fca6",
+              "label": "Affettati",
+              "visible": true,
+              "price": 2
+            },
+            {
+              "id": "647f5557fa9acf673cc6fca7",
+              "label": "Bufala",
+              "visible": true,
+              "price": 1
+            }
+          ],
+          "maxChoisesSelectable": 3,
+          "required": false
+        }
+      ],
+      "discountPercentage": null
+    },
+    {
+      "id": "5f4d168bd8eef50017ed8844",
+      "name": "Dolci",
+      "items": [
+        {
+          "id": "5f4d190cd8eef50017ed8852",
+          "name": "Coppa croccante",
+          "description": "",
+          "ingredients": [
+            {
+              "id": "647f5574fa9acf673cc6fd49",
+              "name": "crema al caffè"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd4a",
+              "name": "ciocolato bianco"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd4b",
+              "name": "panna montata"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd4c",
+              "name": "mandorle"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd4d",
+              "name": "noci"
+            },
+            {
+              "id": "647f5574fa9acf673cc6fd4e",
+              "name": "nocciole caramellate"
+            }
+          ],
+          "allergens": [],
+          "price": 5,
+          "image": {
+            "imageID": "bd903212-a6f8-4ee7-9a10-e4e3f2f1320f",
+            "url": "https://firebasestorage.googleapis.com/v0/b/ordify-8d2cc.appspot.com/o/images%2Fitems%2Fbd903212-a6f8-4ee7-9a10-e4e3f2f1320f?alt=media&token=fb7538bb-3d64-4359-a70e-b7eac0b215b0",
+            "filename": null,
+            "size": 48155,
+            "imageType": "image/jpeg"
+          },
+          "options": [],
+          "discountPercentage": null
+        }
+      ],
+      "options": [],
+      "discountPercentage": null
+    },
+    {
+      "id": "5f57e9e95972580017f59b5b",
+      "name": "Bevande",
+      "items": [
+        {
+          "id": "5f57ea115972580017f59b5f",
+          "name": "Bibita in lattina 0,33 lt",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 2,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "5f57ea255972580017f59b60",
+          "name": "Bibite in bottiglia 1,50 lt",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 3,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "5f57ea375972580017f59b61",
+          "name": "Birre in bottiglia 0,33 lt",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 2,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "5f57ea485972580017f59b62",
+          "name": "Birre in bottiglia 0,66 lt",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 3,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "5f57ea5c5972580017f59b63",
+          "name": "Acqua naturale 0,50 lt",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 1,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "5f57ea775972580017f59b64",
+          "name": "Acqua frizzante 0,5 lt",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 1,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        }
+      ],
+      "options": [],
+      "discountPercentage": null
+    },
+    {
+      "id": "5f4d1697d8eef50017ed8846",
+      "name": "Lista dei Vini",
+      "description": null,
+      "items": [
+        {
+          "id": "5f4d191ed8eef50017ed8853",
+          "name": "Rays",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 16,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "5f4d192cd8eef50017ed8854",
+          "name": "Inciostar",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 16,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "5f4d193cd8eef50017ed8855",
+          "name": "Lambrusco terre verdiane",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 14,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        }
+      ],
+      "options": [],
+      "discountPercentage": null
+    },
+    {
+      "id": "64e91d6e4277330014d81200",
+      "name": "A",
+      "items": [],
+      "options": [],
+      "discountPercentage": null
+    },
+    {
+      "id": "64e91d8c4277330014d8122e",
+      "name": "Aaa",
+      "items": [],
+      "options": [],
+      "discountPercentage": null
+    },
+    {
+      "id": "64e91d944277330014d8124a",
+      "name": "B",
+      "items": [],
+      "options": [],
+      "discountPercentage": null
+    },
+    {
+      "id": "64e91da44277330014d81270",
+      "name": "Ppp",
+      "items": [],
+      "options": [],
+      "discountPercentage": null
+    }
+  ]
+}

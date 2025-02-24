@@ -1,0 +1,6 @@
+boto3
+requests
+openai
+load_dotenv
+pymongo
+bson

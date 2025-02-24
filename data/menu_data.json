@@ -1,0 +1,1457 @@
+{
+  "id": "6436e234252fe40014d86061",
+  "name": "CENA",
+  "image": {
+    "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+    "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+    "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+    "size": 2586574,
+    "imageType": "image/jpg"
+  },
+  "description": null,
+  "categories": [
+    {
+      "id": "6414848f79ac550014b037b3",
+      "name": "CENA",
+      "description": null,
+      "items": [
+        {
+          "id": "66055460a554d600141f0113",
+          "name": "HAMBURGER CLASSICO CON PATATE CRISPERS",
+          "description": "",
+          "ingredients": [
+            "hamburger 200 gr",
+            "fontina",
+            "insalata",
+            "pomodoro",
+            "o maionese",
+            "o salsa bbq",
+            "o ketchup"
+          ],
+          "allergens": [],
+          "price": 12,
+          "image": null,
+          "options": [],
+          "discountPercentage": null,
+          "variants": [
+            {
+              "id": "635965fe0bbdc2001632509c",
+              "name": "PRANZO",
+              "iconNative": {
+                "iconID": "local-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+                "filename": null,
+                "size": 232672,
+                "imageType": "image/jpeg"
+              }
+            },
+            {
+              "id": "6436e234252fe40014d86061",
+              "name": "CENA",
+              "iconNative": {
+                "iconID": "lunch-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+                "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+                "size": 2586574,
+                "imageType": "image/jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "65f49bebcb6e950014d02dfa",
+          "name": "BACON HAMBURGER  CON PATATE CRISPERS",
+          "description": "",
+          "ingredients": [
+            "hamburger 200 gr",
+            "monte veronese",
+            "bacon",
+            "cipolle caramellate",
+            "insalata",
+            "maionese"
+          ],
+          "allergens": [],
+          "price": 14,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "65f49c3ecb6e950014d02e03",
+          "name": "EGG HAMBURGER CON PATATE CRISPERS",
+          "description": "",
+          "ingredients": [
+            "hamburger",
+            "scamorza",
+            "uovo",
+            "insalata",
+            "speck croccante",
+            "maionese"
+          ],
+          "allergens": [],
+          "price": 14,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "65f454d2cb6e950014d02a98",
+          "name": "TOAST",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 5,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        }
+      ],
+      "options": [],
+      "discountPercentage": null,
+      "variants": [
+        {
+          "id": "6436e234252fe40014d86061",
+          "name": "CENA",
+          "iconNative": {
+            "iconID": "lunch-dining",
+            "type": "food",
+            "tags": [
+              "food",
+              "restaurant"
+            ],
+            "family": "material-icons"
+          },
+          "iconWeb": null,
+          "description": null,
+          "image": {
+            "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+            "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+            "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+            "size": 2586574,
+            "imageType": "image/jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "60813a869eaccc0017fc99f1",
+      "name": "PIATTI UNICI ",
+      "description": null,
+      "items": [
+        {
+          "id": "65fd7481a500d500142de9dc",
+          "name": "Culatello con cotenna e bufala dop",
+          "description": "200 grammi",
+          "ingredients": [],
+          "allergens": [],
+          "price": 12,
+          "image": {
+            "imageID": "dbe507e6-e5f1-4a57-8e0c-b96034ea7ada",
+            "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fitems%2Fdbe507e6-e5f1-4a57-8e0c-b96034ea7ada?alt=media&token=2d572eeb-9ec3-45e4-ba2d-1da584027c5d",
+            "filename": "FE3BA66E-41B3-4F74-AC8B-00AD8F4764CD.jpg",
+            "size": 2602194,
+            "imageType": "image/jpg"
+          },
+          "options": [],
+          "discountPercentage": null,
+          "variants": [
+            {
+              "id": "635965fe0bbdc2001632509c",
+              "name": "PRANZO",
+              "iconNative": {
+                "iconID": "local-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+                "filename": null,
+                "size": 232672,
+                "imageType": "image/jpeg"
+              }
+            },
+            {
+              "id": "6436e234252fe40014d86061",
+              "name": "CENA",
+              "iconNative": {
+                "iconID": "lunch-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+                "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+                "size": 2586574,
+                "imageType": "image/jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "65f301e734b89a0014ea8dd8",
+          "name": "Bresaola rucola e grana a scaglie",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 8.5,
+          "image": null,
+          "options": [],
+          "discountPercentage": null,
+          "variants": [
+            {
+              "id": "635965fe0bbdc2001632509c",
+              "name": "PRANZO",
+              "iconNative": {
+                "iconID": "local-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+                "filename": null,
+                "size": 232672,
+                "imageType": "image/jpeg"
+              }
+            },
+            {
+              "id": "6436e234252fe40014d86061",
+              "name": "CENA",
+              "iconNative": {
+                "iconID": "lunch-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+                "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+                "size": 2586574,
+                "imageType": "image/jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "661d0ed88794900014033041",
+          "name": "Caprese con mozzarella di bufala dop, capperi olive e origano",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 8.5,
+          "image": null,
+          "options": [],
+          "discountPercentage": null,
+          "variants": [
+            {
+              "id": "635965fe0bbdc2001632509c",
+              "name": "PRANZO",
+              "iconNative": {
+                "iconID": "local-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+                "filename": null,
+                "size": 232672,
+                "imageType": "image/jpeg"
+              }
+            },
+            {
+              "id": "6436e234252fe40014d86061",
+              "name": "CENA",
+              "iconNative": {
+                "iconID": "lunch-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+                "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+                "size": 2586574,
+                "imageType": "image/jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "options": [],
+      "discountPercentage": null,
+      "variants": [
+        {
+          "id": "635965fe0bbdc2001632509c",
+          "name": "PRANZO",
+          "iconNative": {
+            "iconID": "local-dining",
+            "type": "food",
+            "tags": [
+              "food",
+              "restaurant"
+            ],
+            "family": "material-icons"
+          },
+          "iconWeb": null,
+          "description": null,
+          "image": {
+            "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+            "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+            "filename": null,
+            "size": 232672,
+            "imageType": "image/jpeg"
+          }
+        },
+        {
+          "id": "6436e234252fe40014d86061",
+          "name": "CENA",
+          "iconNative": {
+            "iconID": "lunch-dining",
+            "type": "food",
+            "tags": [
+              "food",
+              "restaurant"
+            ],
+            "family": "material-icons"
+          },
+          "iconWeb": null,
+          "description": null,
+          "image": {
+            "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+            "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+            "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+            "size": 2586574,
+            "imageType": "image/jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6081413f9eaccc0017fc9a2d",
+      "name": "LA NOSTRA PINSA ROMANA",
+      "description": null,
+      "items": [
+        {
+          "id": "65574562feb5950014efed01",
+          "name": "BRIE, PESTO ALLA GENOVESE, IN USCITA CULATELLO CON COTENNA",
+          "description": "Bufala campana dop, pomodorini al forno, salamino piccante",
+          "ingredients": [],
+          "allergens": [],
+          "price": 10,
+          "image": null,
+          "options": [],
+          "discountPercentage": null,
+          "variants": [
+            {
+              "id": "635965fe0bbdc2001632509c",
+              "name": "PRANZO",
+              "iconNative": {
+                "iconID": "local-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+                "filename": null,
+                "size": 232672,
+                "imageType": "image/jpeg"
+              }
+            },
+            {
+              "id": "6436e234252fe40014d86061",
+              "name": "CENA",
+              "iconNative": {
+                "iconID": "lunch-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+                "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+                "size": 2586574,
+                "imageType": "image/jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "65574566feb5950014efed0a",
+          "name": "BUFALA CAMPANA DOP, POMODORINI AL FORNO, SALAMINO PICCANTE",
+          "description": "Brie, pesto alla genovese, in uscita culatello con cotenna",
+          "ingredients": [],
+          "allergens": [],
+          "price": 10,
+          "image": null,
+          "options": [],
+          "discountPercentage": null,
+          "variants": [
+            {
+              "id": "635965fe0bbdc2001632509c",
+              "name": "PRANZO",
+              "iconNative": {
+                "iconID": "local-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+                "filename": null,
+                "size": 232672,
+                "imageType": "image/jpeg"
+              }
+            },
+            {
+              "id": "6436e234252fe40014d86061",
+              "name": "CENA",
+              "iconNative": {
+                "iconID": "lunch-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+                "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+                "size": 2586574,
+                "imageType": "image/jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "6557456afeb5950014efed13",
+          "name": "BUFALA CAMPANA DOP, POMODORINI AL FORNO, IN USCITA ALICI DEL CANTABRICO",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 12,
+          "image": null,
+          "options": [],
+          "discountPercentage": null,
+          "variants": [
+            {
+              "id": "635965fe0bbdc2001632509c",
+              "name": "PRANZO",
+              "iconNative": {
+                "iconID": "local-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+                "filename": null,
+                "size": 232672,
+                "imageType": "image/jpeg"
+              }
+            },
+            {
+              "id": "6436e234252fe40014d86061",
+              "name": "CENA",
+              "iconNative": {
+                "iconID": "lunch-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+                "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+                "size": 2586574,
+                "imageType": "image/jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "65574572feb5950014efed1c",
+          "name": "PATATE CROCCANTI, SCAMORZA AFFUMICATA, PANCETTA PIACENTINA AL PEPE",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 10,
+          "image": null,
+          "options": [],
+          "discountPercentage": null,
+          "variants": [
+            {
+              "id": "635965fe0bbdc2001632509c",
+              "name": "PRANZO",
+              "iconNative": {
+                "iconID": "local-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+                "filename": null,
+                "size": 232672,
+                "imageType": "image/jpeg"
+              }
+            },
+            {
+              "id": "6436e234252fe40014d86061",
+              "name": "CENA",
+              "iconNative": {
+                "iconID": "lunch-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+                "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+                "size": 2586574,
+                "imageType": "image/jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "65f1818b35f9ad0014344a0f",
+          "name": "FIOR DI LATTE, CREMA DI TARTUFO, MORTADELLA, STRACCIATELLA, GRANELLA DI PISTACCHIO",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 12,
+          "image": {
+            "imageID": "ef870c62-4059-4038-84e0-d58795eb9ff2",
+            "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fitems%2Fef870c62-4059-4038-84e0-d58795eb9ff2?alt=media&token=4c5215d7-9223-41b3-b86c-4dae9afa07d8",
+            "filename": null,
+            "size": 1234875,
+            "imageType": "image/jpeg"
+          },
+          "options": [],
+          "discountPercentage": null,
+          "variants": [
+            {
+              "id": "635965fe0bbdc2001632509c",
+              "name": "PRANZO",
+              "iconNative": {
+                "iconID": "local-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+                "filename": null,
+                "size": 232672,
+                "imageType": "image/jpeg"
+              }
+            },
+            {
+              "id": "6436e234252fe40014d86061",
+              "name": "CENA",
+              "iconNative": {
+                "iconID": "lunch-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+                "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+                "size": 2586574,
+                "imageType": "image/jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "6557457afeb5950014efed2e",
+          "name": "FIOR DI LATTE, RUCOLA, BRESAOLA PUNTA D’ANCA, BUFALA CAMPANA DOP, POMODORINI SECCHI",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 12,
+          "image": {
+            "imageID": "cd34cee2-6d37-425f-9698-2a83d9d0a8ac",
+            "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fitems%2Fcd34cee2-6d37-425f-9698-2a83d9d0a8ac?alt=media&token=e6a61d90-072b-45d0-b40b-854ddf146b9d",
+            "filename": null,
+            "size": 1284692,
+            "imageType": "image/jpeg"
+          },
+          "options": [],
+          "discountPercentage": null,
+          "variants": [
+            {
+              "id": "635965fe0bbdc2001632509c",
+              "name": "PRANZO",
+              "iconNative": {
+                "iconID": "local-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+                "filename": null,
+                "size": 232672,
+                "imageType": "image/jpeg"
+              }
+            },
+            {
+              "id": "6436e234252fe40014d86061",
+              "name": "CENA",
+              "iconNative": {
+                "iconID": "lunch-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+                "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+                "size": 2586574,
+                "imageType": "image/jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "6557457efeb5950014efed37",
+          "name": "SALSA DI RADICCHIO ROSSO, SALAMINO PICCANTE, RUCOLA, BUFALA",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 12,
+          "image": null,
+          "options": [],
+          "discountPercentage": null,
+          "variants": [
+            {
+              "id": "635965fe0bbdc2001632509c",
+              "name": "PRANZO",
+              "iconNative": {
+                "iconID": "local-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+                "filename": null,
+                "size": 232672,
+                "imageType": "image/jpeg"
+              }
+            },
+            {
+              "id": "6436e234252fe40014d86061",
+              "name": "CENA",
+              "iconNative": {
+                "iconID": "lunch-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+                "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+                "size": 2586574,
+                "imageType": "image/jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "options": [],
+      "discountPercentage": null,
+      "variants": [
+        {
+          "id": "635965fe0bbdc2001632509c",
+          "name": "PRANZO",
+          "iconNative": {
+            "iconID": "local-dining",
+            "type": "food",
+            "tags": [
+              "food",
+              "restaurant"
+            ],
+            "family": "material-icons"
+          },
+          "iconWeb": null,
+          "description": null,
+          "image": {
+            "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+            "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+            "filename": null,
+            "size": 232672,
+            "imageType": "image/jpeg"
+          }
+        },
+        {
+          "id": "6436e234252fe40014d86061",
+          "name": "CENA",
+          "iconNative": {
+            "iconID": "lunch-dining",
+            "type": "food",
+            "tags": [
+              "food",
+              "restaurant"
+            ],
+            "family": "material-icons"
+          },
+          "iconWeb": null,
+          "description": null,
+          "image": {
+            "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+            "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+            "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+            "size": 2586574,
+            "imageType": "image/jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "60814e229eaccc0017fc9a40",
+      "name": "DOLCI",
+      "description": null,
+      "items": [
+        {
+          "id": "65f302ce34b89a0014ea8e6b",
+          "name": "SALAME DOLCE",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 3.5,
+          "image": {
+            "imageID": "e053cad9-d9c9-430a-869d-1bc33a3748ba",
+            "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fitems%2Fe053cad9-d9c9-430a-869d-1bc33a3748ba?alt=media&token=9fd2a1c9-044a-4a08-8ea7-65b2ff00ffee",
+            "filename": "F0262F4D-5D63-4A0E-AC29-86C2DDB33918.jpg",
+            "size": 3546749,
+            "imageType": "image/jpg"
+          },
+          "options": [],
+          "discountPercentage": null,
+          "variants": [
+            {
+              "id": "635965fe0bbdc2001632509c",
+              "name": "PRANZO",
+              "iconNative": {
+                "iconID": "local-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+                "filename": null,
+                "size": 232672,
+                "imageType": "image/jpeg"
+              }
+            },
+            {
+              "id": "6436e234252fe40014d86061",
+              "name": "CENA",
+              "iconNative": {
+                "iconID": "lunch-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+                "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+                "size": 2586574,
+                "imageType": "image/jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "65f302f134b89a0014ea8e99",
+          "name": "TARTUFO",
+          "description": "",
+          "ingredients": [
+            "BIANCO",
+            "NERO",
+            "NOCCIOLA",
+            "PISTACCHIO"
+          ],
+          "allergens": [],
+          "price": 3.5,
+          "image": null,
+          "options": [],
+          "discountPercentage": null,
+          "variants": [
+            {
+              "id": "635965fe0bbdc2001632509c",
+              "name": "PRANZO",
+              "iconNative": {
+                "iconID": "local-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+                "filename": null,
+                "size": 232672,
+                "imageType": "image/jpeg"
+              }
+            },
+            {
+              "id": "6436e234252fe40014d86061",
+              "name": "CENA",
+              "iconNative": {
+                "iconID": "lunch-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+                "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+                "size": 2586574,
+                "imageType": "image/jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "65f302e734b89a0014ea8e90",
+          "name": "TARTUFO AFFOGATO",
+          "description": "",
+          "ingredients": [
+            "BIANCO",
+            "NERO",
+            "NOCCIOLA",
+            "PISTACCHIO"
+          ],
+          "allergens": [],
+          "price": 4.5,
+          "image": null,
+          "options": [],
+          "discountPercentage": null,
+          "variants": [
+            {
+              "id": "635965fe0bbdc2001632509c",
+              "name": "PRANZO",
+              "iconNative": {
+                "iconID": "local-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+                "filename": null,
+                "size": 232672,
+                "imageType": "image/jpeg"
+              }
+            },
+            {
+              "id": "6436e234252fe40014d86061",
+              "name": "CENA",
+              "iconNative": {
+                "iconID": "lunch-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+                "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+                "size": 2586574,
+                "imageType": "image/jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "65f3030a34b89a0014ea8eb9",
+          "name": "SBRISOLINA CON ZABAIONE E PRUGNA SCIROPPATA",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 4,
+          "image": null,
+          "options": [],
+          "discountPercentage": null,
+          "variants": [
+            {
+              "id": "635965fe0bbdc2001632509c",
+              "name": "PRANZO",
+              "iconNative": {
+                "iconID": "local-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+                "filename": null,
+                "size": 232672,
+                "imageType": "image/jpeg"
+              }
+            },
+            {
+              "id": "6436e234252fe40014d86061",
+              "name": "CENA",
+              "iconNative": {
+                "iconID": "lunch-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+                "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+                "size": 2586574,
+                "imageType": "image/jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "661e45c6a0e1ec0014eb5258",
+          "name": "FRAGOLE",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 3.5,
+          "image": null,
+          "options": [],
+          "discountPercentage": null,
+          "variants": [
+            {
+              "id": "635965fe0bbdc2001632509c",
+              "name": "PRANZO",
+              "iconNative": {
+                "iconID": "local-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+                "filename": null,
+                "size": 232672,
+                "imageType": "image/jpeg"
+              }
+            },
+            {
+              "id": "6436e234252fe40014d86061",
+              "name": "CENA",
+              "iconNative": {
+                "iconID": "lunch-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+                "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+                "size": 2586574,
+                "imageType": "image/jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "661e45cca0e1ec0014eb5261",
+          "name": "FRAGOLE CON PANNA",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 4,
+          "image": null,
+          "options": [],
+          "discountPercentage": null,
+          "variants": [
+            {
+              "id": "635965fe0bbdc2001632509c",
+              "name": "PRANZO",
+              "iconNative": {
+                "iconID": "local-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+                "filename": null,
+                "size": 232672,
+                "imageType": "image/jpeg"
+              }
+            },
+            {
+              "id": "6436e234252fe40014d86061",
+              "name": "CENA",
+              "iconNative": {
+                "iconID": "lunch-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+                "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+                "size": 2586574,
+                "imageType": "image/jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "66224bdb729c670014a649cd",
+          "name": "BOCCIOLO DI ROSE CON ZABAIONE",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 3.5,
+          "image": null,
+          "options": [],
+          "discountPercentage": null,
+          "variants": [
+            {
+              "id": "635965fe0bbdc2001632509c",
+              "name": "PRANZO",
+              "iconNative": {
+                "iconID": "local-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+                "filename": null,
+                "size": 232672,
+                "imageType": "image/jpeg"
+              }
+            },
+            {
+              "id": "6436e234252fe40014d86061",
+              "name": "CENA",
+              "iconNative": {
+                "iconID": "lunch-dining",
+                "type": "food",
+                "tags": [
+                  "food",
+                  "restaurant"
+                ],
+                "family": "material-icons"
+              },
+              "iconWeb": null,
+              "description": null,
+              "image": {
+                "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+                "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+                "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+                "size": 2586574,
+                "imageType": "image/jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "options": [],
+      "discountPercentage": null,
+      "variants": [
+        {
+          "id": "635965fe0bbdc2001632509c",
+          "name": "PRANZO",
+          "iconNative": {
+            "iconID": "local-dining",
+            "type": "food",
+            "tags": [
+              "food",
+              "restaurant"
+            ],
+            "family": "material-icons"
+          },
+          "iconWeb": null,
+          "description": null,
+          "image": {
+            "imageID": "a0b1f826-fe37-4293-a931-b2b439e77644",
+            "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fa0b1f826-fe37-4293-a931-b2b439e77644?alt=media&token=817b7ba1-4371-4070-ae7c-ac0e0bb170d5",
+            "filename": null,
+            "size": 232672,
+            "imageType": "image/jpeg"
+          }
+        },
+        {
+          "id": "6436e234252fe40014d86061",
+          "name": "CENA",
+          "iconNative": {
+            "iconID": "lunch-dining",
+            "type": "food",
+            "tags": [
+              "food",
+              "restaurant"
+            ],
+            "family": "material-icons"
+          },
+          "iconWeb": null,
+          "description": null,
+          "image": {
+            "imageID": "bfc1d82f-9eee-4764-92f2-5b97a220b825",
+            "url": "https://firebasestorage.googleapis.com:443/v0/b/ordify-8d2cc.appspot.com/o/images%2Fmenu-variants%2Fbfc1d82f-9eee-4764-92f2-5b97a220b825?alt=media&token=a3f01fe8-c1b3-4d8e-a4ca-e3ca6803fff8",
+            "filename": "CF03B3F4-22CF-4DBC-97E4-D2A6C5EAC254.jpg",
+            "size": 2586574,
+            "imageType": "image/jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6601afbafdc589001472572a",
+      "name": "COCKTAILS",
+      "description": null,
+      "items": [
+        {
+          "id": "6601affbfdc5890014725755",
+          "name": "MOJITO",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 7,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "6601b013fdc589001472575e",
+          "name": "MOJITO LAMPONE",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 7,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "660c24c76e5ed10014efbcea",
+          "name": "MOJITO MIDO",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 7,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "6601b03efdc5890014725767",
+          "name": "VIRGIN MOJITO",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 7,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "6601b0cbfdc5890014725770",
+          "name": "PINACOLADA",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 7,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "6601b0fafdc5890014725782",
+          "name": "PINACOLADA FRAGOLA",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 7,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "6601b0e1fdc5890014725779",
+          "name": "VIRGIN PINACOLADA",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 7,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "6601b159fdc589001472578b",
+          "name": "LONG ISLAND ICE TEA",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 7,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "6601b175fdc5890014725794",
+          "name": "JAPAN ICE TEA",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 7,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "6601b18efdc589001472579d",
+          "name": "TOKIO ICE TEA",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 7,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        },
+        {
+          "id": "6601b19bfdc58900147257a6",
+          "name": "RUSSIAN ICE TEA",
+          "description": "",
+          "ingredients": [],
+          "allergens": [],
+          "price": 7,
+          "image": null,
+          "options": [],
+          "discountPercentage": null
+        }
+      ],
+      "options": [],
+      "discountPercentage": null
+    }
+  ]
+}
