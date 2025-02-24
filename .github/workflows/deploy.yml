@@ -35,14 +35,19 @@ jobs:
           ECR_REPOSITORY: menu-advisor-model
           IMAGE_TAG: latest
         run: |
-          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+          docker build \
+          --build-arg OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }} \
+          --build-arg DEEPSEEK_API_KEY=${{ secrets.DEEPSEEK_API_KEY }} \
+          --build-arg MONGO_URI=${{ secrets.MONGO_URI }} \
+          --build-arg DATABASE_NAME=${{ secrets.DATABASE_NAME }} \
+          -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
 
       # Deploy Lambda with updated image
       - name: Deploy Lambda function
         id: deploy-lambda
         run: |
-          aws lambda update-function-code \
+          aws lambda update-function-configuration \
             --function-name menu-advisor-model \
-            --image-uri $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG \
+            --environment "Variables={OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }},DEEPSEEK_API_KEY=${{ secrets.DEEPSEEK_API_KEY }},MONGO_URI=${{ secrets.MONGO_URI }},DATABASE_NAME=${{ secrets.DATABASE_NAME }}" \
             --region ${{ secrets.AWS_REGION }}
