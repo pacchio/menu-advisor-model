@@ -62,13 +62,9 @@ The application is deployed to AWS Lambda using GitHub Actions.
 
 - When a push is made to the `main` branch, the **GitHub Action** is triggered
     - the `.github/workflows/deploy.yml` file contains the configuration of the action
-- The action will deploy the application to **AWS Lambda** using the **Serverless framework**
-    - the `serverless.yml` file contains the configuration of the deployment
-- The serverless flow is as follows:
-    - create the docker image using the `Dockerfile`
+    - it creates the docker image using the `Dockerfile`
     - push the docker image to the **ECR** (Elastic Container Registry)
     - deploy the application to AWS Lambda
-    - add environment variables to the Lambda function taking them from the **Serverless Dashboard** (cloud)
 
 ## Test Endpoint
 
