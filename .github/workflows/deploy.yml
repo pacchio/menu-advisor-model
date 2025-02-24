@@ -56,6 +56,21 @@ jobs:
             --image-uri $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG \
             --region ${{ secrets.AWS_REGION }}
           
+          # Wait for the update to complete
+          while true; do
+            STATUS=$(aws lambda get-function --function-name menu-advisor-model --region ${{ secrets.AWS_REGION }} --query 'Configuration.LastUpdateStatus' --output text)
+            if [ "$STATUS" == "Successful" ]; then
+              echo "Lambda function update completed successfully."
+              break
+            elif [ "$STATUS" == "Failed" ]; then
+              echo "Lambda function update failed."
+              exit 1
+            else
+              echo "Waiting for Lambda function update to complete... Current status: $STATUS"
+              sleep 5
+            fi
+          done
+          
           aws lambda update-function-configuration \
           --function-name menu-advisor-model \
           --environment '{"Variables": {"OPENAI_API_KEY": "${{ secrets.OPENAI_API_KEY }}", "DEEPSEEK_API_KEY": "${{ secrets.DEEPSEEK_API_KEY }}", "MONGO_URI": "${{ secrets.MONGO_URI }}", "DATABASE_NAME": "${{ secrets.DATABASE_NAME }}"}}' \
