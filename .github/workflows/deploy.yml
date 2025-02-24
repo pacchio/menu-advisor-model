@@ -43,6 +43,13 @@ jobs:
           -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
 
+      - name: Debug ECR image URI
+        run: |
+          echo "ECR_REGISTRY: $ECR_REGISTRY"
+          echo "ECR_REPOSITORY: $ECR_REPOSITORY"
+          echo "IMAGE_TAG: $IMAGE_TAG"
+          echo "Full image URI: $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
+
       # Deploy Lambda with updated image
       - name: Deploy Lambda function
         id: deploy-lambda
