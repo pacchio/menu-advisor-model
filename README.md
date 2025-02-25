@@ -8,32 +8,19 @@ Python Lambda function to provide a menu suggestion based on the user's preferen
 
 ## Local development
 
-```bash
-# install dependencies
-pip install -r requirements.txt
-```
-
-Then create your `.env` file to configure database properties (you can use the .env.example as a template)
+Create your `.env` file into `dev` folder to configure secrets (you can use the .env.example as a template)
 
 ### Run locally
-You can run the lambda locally:
-
-#### Simple running script (TO DO)
-```bash
-# test generate-questions
-
-# test suggest-dishes
-```
+You can run the lambda locally.
 
 #### Simulating Lambda using Docker
 This way will use a docker container to run the application.<br>
-The configuration is taken from the env variables into `.env` file.
 
 ```bash
-# build the docker image
-docker build -t menu-advisor-model-lambda .
+# build the docker image with dev Dockerfile
+docker build . -t menu-advisor-model-lambda -f dev/Dockerfile
 
-# build the docker image
+# run the docker image
 docker run -p 9000:8080 menu-advisor-model-lambda
 ```
 
@@ -61,10 +48,23 @@ curl -X POST "http://localhost:9000/2015-03-31/functions/function/invocations" \
 The application is deployed to AWS Lambda using GitHub Actions.
 
 - When a push is made to the `main` branch, the **GitHub Action** is triggered
-    - the `.github/workflows/deploy.yml` file contains the configuration of the action
-    - it creates the docker image using the `Dockerfile`
-    - push the docker image to the **ECR** (Elastic Container Registry)
-    - deploy the application to AWS Lambda
+- The `.github/workflows/deploy.yml` file contains the configuration of the action
+- It creates the docker image using the `Dockerfile`
+- Push the docker image to the **ECR** (Elastic Container Registry)
+- Deploy the application to AWS Lambda
 
 ## Test Endpoint
 
+api gateway endpoint: https://5bhznb8wh0.execute-api.eu-south-1.amazonaws.com/production
+
+```bash
+# test generate-questions
+curl -X POST "https://5bhznb8wh0.execute-api.eu-south-1.amazonaws.com/production/generate-questions" \
+-H "Content-Type: application/json" \
+-d '{"merchant_id": "5f4d157ed8eef50017ed8836", "menu_id": "menu"}'
+
+# test suggest-dishes
+curl -X POST "https://5bhznb8wh0.execute-api.eu-south-1.amazonaws.com/production/suggest-dishes" \
+-H "Content-Type: application/json" \
+-d "$(jq -n --argjson preferences "$(cat data/preferences.json)" '{merchant_id: "5f4d157ed8eef50017ed8836", menu_id: "menu", user_preferences: $preferences}')"
+```
