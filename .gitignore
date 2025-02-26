@@ -2,3 +2,4 @@
 venv/
 *.iml
 *.env
+http-client.private.env.json

@@ -36,7 +36,7 @@ curl -X POST "http://localhost:9000/2015-03-31/functions/function/invocations" \
 # test suggest-dishes
 jq -n \
   --arg path "/suggest-dishes" \
-  --argjson preferences "$(cat data/preferences.json)" \
+  --argjson preferences "$(cat dev/preferences.json)" \
   '{path: $path, body: ({merchant_id: "5f4d157ed8eef50017ed8836", menu_id: "menu", user_preferences: $preferences} | tostring)}' | \
 curl -X POST "http://localhost:9000/2015-03-31/functions/function/invocations" \
 -H "Content-Type: application/json" \
@@ -55,16 +55,5 @@ The application is deployed to AWS Lambda using GitHub Actions.
 
 ## Test Endpoint
 
-api gateway endpoint: https://5bhznb8wh0.execute-api.eu-south-1.amazonaws.com/production
-
-```bash
-# test generate-questions
-curl -X POST "https://5bhznb8wh0.execute-api.eu-south-1.amazonaws.com/production/generate-questions" \
--H "Content-Type: application/json" \
--d '{"merchant_id": "5f4d157ed8eef50017ed8836", "menu_id": "menu"}'
-
-# test suggest-dishes
-curl -X POST "https://5bhznb8wh0.execute-api.eu-south-1.amazonaws.com/production/suggest-dishes" \
--H "Content-Type: application/json" \
--d "$(jq -n --argjson preferences "$(cat data/preferences.json)" '{merchant_id: "5f4d157ed8eef50017ed8836", menu_id: "menu", user_preferences: $preferences}')"
-```
+You can test the endpoints using the `.http` files into `api` folder.
+<br />Have a look at this [README.md](api/README.md) file for more info.

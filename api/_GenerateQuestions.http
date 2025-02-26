@@ -1,0 +1,8 @@
+### POST /generate-questions
+POST {{BASE_URL}}/generate-questions
+Content-Type: application/json
+
+{
+  "merchant_id": "5f4d157ed8eef50017ed8836",
+  "menu_id": "menu"
+}
