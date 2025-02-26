@@ -1,8 +1,9 @@
 import os
+import json
 from fetch_menu import MenuFetcher
 from openai import OpenAI
 from dotenv import load_dotenv
-from typing import List, Dict
+from typing import List, Dict, Optional
 
 load_dotenv()
 
@@ -35,18 +36,20 @@ def generate_questions(merchant_id: str, menu_id: str,) -> Dict:
     # 1. Pulizia dei dati
     cleaned_data = clean_menu_data(menu_data)
 
-    print("========== here the filtered menu data ===========", cleaned_data)
+    print("\n<< Filtered menu data >>", cleaned_data)
 
     # 2. Preparazione del prompt per DeepSeek
     prompt = create_prompt(cleaned_data)
 
-    print("========== here the prompt ===========", prompt)
+    print("\n<< Prompt >>", prompt)
 
     # 3. Integrazione con DeepSeek API
-    questions = call_deepseek_api(prompt)
+    content = call_deepseek_api(prompt)
+
+    print("\n<< Content >>", content)
 
     # 4. Post-processing delle domande
-    questions = post_process_questions(questions)
+    questions = post_process_questions(content)
 
     return {
         'questions': questions
@@ -100,7 +103,7 @@ def create_prompt(cleaned_data: Dict) -> str:
 
     return prompt
 
-def call_deepseek_api(prompt: str) -> List[str]:
+def call_deepseek_api(prompt: str) -> Optional[str]:
     """
     Chiama l'API di DeepSeek per generare domande.
     :param prompt: Prompt da inviare a DeepSeek.
@@ -121,23 +124,32 @@ def call_deepseek_api(prompt: str) -> List[str]:
             stream=False
         )
 
-        generated_text = response.choices[0].message.content
+        content = response.choices[0].message.content
 
-        # Estrai le domande dal testo generato
-        questions = [q.strip() for q in generated_text.split('\n') if q.strip()]
-        return questions
+        return content
 
     except Exception as e:
         print(f"Errore durante la chiamata a DeepSeek API: {e}")
-        return []
+        return None
 
 
-def post_process_questions(questions: List[Dict[str, List[str]]]) -> List[Dict[str, List[str]]]:
+def post_process_questions(content: Optional[str]) -> List[Dict[str, List[str]]]:
     """
     Cleans and formats the generated questions.
-    :param questions: List of question objects.
+    :param content: generated content.
     :return: List of cleaned question objects.
     """
-    relevant_questions = questions
+    if not content:
+        return []
 
-    return relevant_questions
+    try:
+        # Remove the ```json and ``` markers if they exist
+        if content.strip().startswith("```json") and content.strip().endswith("```"):
+            content = content.strip()[7:-3].strip()  # Remove ```json and ```
+
+        # Parse the JSON content
+        questions = json.loads(content)
+        return questions
+    except json.JSONDecodeError:
+        print("Error parsing JSON content")
+        return []

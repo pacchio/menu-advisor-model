@@ -2,7 +2,7 @@ import os
 from fetch_menu import MenuFetcher
 from openai import OpenAI
 from dotenv import load_dotenv
-from typing import List, Dict
+from typing import List, Dict, Optional
 
 load_dotenv()
 
@@ -36,18 +36,20 @@ def suggest_dishes(merchant_id: str, menu_id: str, user_preferences: Dict) -> Di
     # 3. Pulizia dei dati del menu
     cleaned_data = clean_menu_data(menu_data)
 
-    print("========== here the filtered menu data ===========", cleaned_data)
+    print("\n<< Filtered menu data >>", cleaned_data)
 
     # 3. Preparazione del prompt per DeepSeek
     prompt = create_prompt(cleaned_data, user_preferences)
 
-    print("========== here the prompt ===========", prompt)
+    print("\n<< Prompt >>", prompt)
 
     # 4. Integrazione con DeepSeek API
-    suggested_dish_names = call_deepseek_api(prompt)
+    content = call_deepseek_api(prompt)
+
+    print("\n<< Content >>", content)
 
     # 5. Filtra i piatti suggeriti dal menu originale
-    suggested_dishes = filter_suggested_dishes(cleaned_data, suggested_dish_names)
+    suggested_dishes = filter_suggested_dishes(menu_data, content)
 
     return {
         'suggested_dishes': suggested_dishes
@@ -103,11 +105,11 @@ def create_prompt(cleaned_data: Dict, user_preferences: Dict) -> str:
         prompt += f"- Domanda: {preference['question']}\n"
         prompt += f"  Risposta: {preference['answer']}\n"
 
-    prompt += "\nSuggerisci i nomi dei piatti più adatti alle preferenze dell'utente. Restituisci solo i nomi dei piatti, uno per riga."
+    prompt += "\nSuggerisci i nomi dei piatti più adatti alle preferenze dell'utente. Restituisci solo i nomi dei piatti, uno per riga senza caratteri davanti."
 
     return prompt
 
-def call_deepseek_api(prompt: str) -> List[str]:
+def call_deepseek_api(prompt: str) -> Optional[str]:
     """
     Chiama l'API di DeepSeek per generare suggerimenti.
     :param prompt: Prompt da inviare a DeepSeek.
@@ -130,37 +132,48 @@ def call_deepseek_api(prompt: str) -> List[str]:
         )
 
         # Estrai il testo generato dalla risposta
-        generated_text = response.choices[0].message.content
+        content = response.choices[0].message.content
 
-        # Estrai i nomi dei piatti suggeriti dal testo generato
-        suggested_dish_names = [dish.strip() for dish in generated_text.split('\n') if dish.strip()]
-        return suggested_dish_names
+        return content
 
     except Exception as e:
         print(f"Errore durante la chiamata a DeepSeek API: {e}")
-        return []
+        return None
 
-def filter_suggested_dishes(menu_data: Dict, suggested_dish_names: List[str]) -> List[Dict]:
+def filter_suggested_dishes(menu_data: Dict, content: Optional[str]) -> List[Dict]:
     """
     Filtra i piatti suggeriti dal menu originale.
     :param menu_data: Dati del menu (struttura JSON).
-    :param suggested_dish_names: Lista di nomi di piatti suggeriti.
+    :param content: Stringa con i nomi dei piatti suggeriti (formato con newline).
     :return: Lista di piatti completi (con tutti i campi originali).
     """
     suggested_dishes = []
 
+    if not content:
+        return suggested_dishes
+
+    # Estrai i nomi dei piatti suggeriti dal testo generato
+    suggested_dish_names = [dish.strip() for dish in content.split('\n') if dish.strip()]
+
     for category in menu_data.get('categories', []):
         for item in category.get('items', []):
             if item.get('name') in suggested_dish_names:
+                ingredients = []
+                for ingredient in item.get('ingredients', []):
+                    ingredients.append({
+                        'id': str(ingredient.get('_id')),
+                        'name': ingredient.get('name')
+                    })
+
                 # Aggiungi il piatto con tutti i campi originali
                 suggested_dishes.append({
-                    'id': item.get('id'),
+                    'id': str(item.get('_id')),
                     'name': item.get('name'),
                     'description': item.get('description'),
-                    'ingredients': item.get('ingredients', []),
+                    'ingredients': ingredients,
                     'allergens': item.get('allergens', []),
                     'price': item.get('price'),
-                    'categoryId': category.get('id'),
+                    'categoryId': str(category.get('_id')),
                     'categoryName': category.get('name')
                 })
 
