@@ -5,19 +5,20 @@ Content-Type: application/json
 {
   "merchant_id": "5f4d157ed8eef50017ed8836",
   "menu_id": "menu",
+  "language": "en",
   "user_preferences": {
     "preferences": [
       {
-        "question": "Preferisci piatti a base di carne, pesce, verdure o sei aperto a tutte le opzioni?",
-        "answer": "carne"
+        "question": "Do you have any food allergies?",
+        "answer": "No"
       },
       {
-        "question": "Hai allergie o intolleranze alimentari specifiche, come uova, glutine, latticini o frutta a guscio?",
-        "answer": "no"
+        "question": "What type of dish are you in the mood for?",
+        "answer": "Main Course"
       },
       {
-        "question": "Preferisci piatti leggeri o più sostanziosi e ricchi?",
-        "answer": "sostanziosi"
+        "question": "Are you looking for vegetarian options?",
+        "answer": "No"
       }
     ]
   }

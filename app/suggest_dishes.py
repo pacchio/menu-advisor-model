@@ -26,11 +26,12 @@ class DishSuggestion(BaseModel):
             raise ValueError("You must suggest at least one dish.")
         return v[:5]
 
-def suggest_dishes(merchant_id: str, menu_id: str, user_preferences: Dict) -> Dict:
+def suggest_dishes(merchant_id: str, menu_id: str, language: str, user_preferences: Dict) -> Dict:
     """
     Suggest dishes based on menu and user preferences using DeepSeek API.
     :param merchant_id: Merchant ID.
     :param menu_id: Menu (variant) ID.
+    :param language: language used for the output.
     :param user_preferences: User preferences (questions and answers).
     :return: Full dish objects matching suggestions.
     """
@@ -52,7 +53,7 @@ def suggest_dishes(merchant_id: str, menu_id: str, user_preferences: Dict) -> Di
     print("\n<< Filtered menu data >>", cleaned_data)
 
     # 3. Preparation of the prompt
-    prompt = create_prompt(cleaned_data, user_preferences)
+    prompt = create_prompt(cleaned_data, user_preferences, language)
 
     print("\n<< Prompt >>", prompt)
 
@@ -93,11 +94,12 @@ def clean_menu_data(menu_data: Dict) -> Dict:
 
     return cleaned_data
 
-def create_prompt(cleaned_data: Dict, user_preferences: Dict) -> str:
+def create_prompt(cleaned_data: Dict, user_preferences: Dict, language: str) -> str:
     """
     Creates a prompt for the DeepSeek model based on the cleaned menu data
     :param cleaned_data
     :param user_preferences: User preferences (questions and answers).
+    :param language: language used for the output.
     :return: Prompt as string.
     """
     prompt = "Based on the following menu and following user preferences:\n\n"
@@ -119,6 +121,7 @@ def create_prompt(cleaned_data: Dict, user_preferences: Dict) -> str:
         "\nThe suggestions are an array of string in which the string is the name of the dish."
         "\nRespond only with JSON (no markdown or explanations) wrapping suggestions array into 'suggested_dishes' key."
     )
+    prompt += f"\n\nLanguage of the content: {language}\n"
 
     return prompt
 

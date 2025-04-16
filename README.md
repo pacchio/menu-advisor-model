@@ -87,7 +87,7 @@ docker run -p 9000:8080 menu-advisor-model-lambda
 # test generate-questions
 jq -n \
   --arg path "/generate-questions" \
-  '{path: $path, body: ({merchant_id: "5f4d157ed8eef50017ed8836", menu_id: "menu"} | tostring)}' | \
+  '{path: $path, body: ({merchant_id: "5f4d157ed8eef50017ed8836", menu_id: "menu", language: "en"} | tostring)}' | \
 curl -X POST "http://localhost:9000/2015-03-31/functions/function/invocations" \
 -H "Content-Type: application/json" \
 -d @-
@@ -96,7 +96,7 @@ curl -X POST "http://localhost:9000/2015-03-31/functions/function/invocations" \
 jq -n \
   --arg path "/suggest-dishes" \
   --argjson preferences "$(cat dev/preferences.json)" \
-  '{path: $path, body: ({merchant_id: "5f4d157ed8eef50017ed8836", menu_id: "menu", user_preferences: $preferences} | tostring)}' | \
+  '{path: $path, body: ({merchant_id: "5f4d157ed8eef50017ed8836", menu_id: "menu", language: "en", user_preferences: $preferences} | tostring)}' | \
 curl -X POST "http://localhost:9000/2015-03-31/functions/function/invocations" \
 -H "Content-Type: application/json" \
 -d @-

@@ -4,17 +4,17 @@ from suggest_dishes import suggest_dishes
 
 def lambda_handler(event, context):
     try:
-        # Estrai il corpo della richiesta
         body = json.loads(event.get('body', '{}'))
         merchant_id = body.get('merchant_id', {})
         menu_id = body.get('menu_id', {})
+        language = body.get('language', {})
         user_preferences = body.get('user_preferences', {})
 
         # Determina l'azione in base al percorso della richiesta
         if event.get('path') == '/generate-questions':
-            response = generate_questions(merchant_id, menu_id)
+            response = generate_questions(merchant_id, menu_id, language)
         elif event.get('path') == '/suggest-dishes':
-            response = suggest_dishes(merchant_id, menu_id, user_preferences)
+            response = suggest_dishes(merchant_id, menu_id, language, user_preferences)
         else:
             response = {
                 'statusCode': 400,

@@ -24,11 +24,12 @@ class Question(BaseModel):
 class QuestionList(BaseModel):
     questions: List[Question]
 
-def generate_questions(merchant_id: str, menu_id: str,) -> Dict:
+def generate_questions(merchant_id: str, menu_id: str, language: str,) -> Dict:
     """
     Generate questions based on the menu using DeepSeek model.
     :param merchant_id: merchant identifier.
     :param menu_id: menu identifier (variant ID).
+    :param language: language used for the output.
     :return: list of generated questions.
     """
     # 1. Fetch menu from MongoDB
@@ -49,7 +50,7 @@ def generate_questions(merchant_id: str, menu_id: str,) -> Dict:
     print("\n<< Filtered menu data >>", cleaned_data)
 
     # 3. Preparation of the prompt
-    prompt = create_prompt(cleaned_data)
+    prompt = create_prompt(cleaned_data, language)
 
     print("\n<< Prompt >>", prompt)
 
@@ -89,10 +90,11 @@ def clean_menu_data(menu_data: Dict) -> Dict:
 
     return cleaned_data
 
-def create_prompt(cleaned_data: Dict) -> str:
+def create_prompt(cleaned_data: Dict, language: str) -> str:
     """
     Creates a prompt for the DeepSeek model based on the cleaned menu data
     :param cleaned_data
+    :param language: language used for the output.
     :return: Prompt as string.
     """
     prompt = "Based on the following list of dishes, generate 3 user questions:\n"
@@ -106,6 +108,7 @@ def create_prompt(cleaned_data: Dict) -> str:
         "\nEach question must include: 'question', 'type' (one of: single-selection (for questions with yes/no answer), multi-selection (for questions with multiple answers allowed), open-text (for questions without pre-defined answers to which the client can respond in an open way)), and if applicable, 'possible_answers'."
         "\nRespond only with JSON (no markdown or explanations) wrapping questions array into 'questions' key."
     )
+    prompt += f"\n\nLanguage of the questions and possible answers: {language}\n"
 
     return prompt
 
