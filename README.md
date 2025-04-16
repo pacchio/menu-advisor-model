@@ -26,18 +26,20 @@ The **Menu Advisor Model** is an AI-powered recommendation system for a digital 
 ```mermaid
 graph TD
     A[User provides menu_id] --> B[Fetch menu from MongoDB]
-    B --> C[DeepSeek generates questions]
+    B --> C[LLM generates questions]
     C --> D[User answers]
-    D --> E[DeepSeek filters dishes]
+    D --> E[LLM filters dishes]
     E --> F[Return matches]
  ```
 
 1. Input: Digital menu platform provides a menu_id
 2. Data Retrieval: Fetch complete menu details from MongoDB
 3. AI Processing:
-   - DeepSeek analyzes ingredients/allergens to generate relevant questions
-   - DeepSeek processes user responses to filter compatible dishes
-4. Output: Returns JSON with personalized recommendations
+   - LLM analyzes ingredients/allergens to generate relevant questions
+   - LLM processes user responses to filter compatible dishes
+4. Output Validation:
+   - The generated questions and dish suggestions are validated using Pydantic models to ensure the structure and format adhere to the defined schema.
+5. Final Output: Returns JSON with personalized recommendations.
 
 The **Menu Advisor Model** operates in two main steps:
 
@@ -76,7 +78,7 @@ This method uses a Docker container to simulate the AWS Lambda environment.
 ```bash
 # Build the Docker image using the dev Dockerfile
 docker build . -t menu-advisor-model-lambda -f dev/Dockerfile
-
+pydantic
 # Run the Docker image
 docker run -p 9000:8080 menu-advisor-model-lambda
 ```

@@ -21,7 +21,13 @@ def lambda_handler(event, context):
                 'body': json.dumps({'error': 'Invalid path'})
             }
 
-        # Restituisci la risposta
+        # Check if the response contains an error field
+        if 'error' in response:
+            return {
+                'statusCode': 500,
+                'body': json.dumps(response)
+            }
+
         return {
             'statusCode': 200,
             'body': json.dumps(response)

@@ -4,3 +4,4 @@ openai
 load_dotenv
 pymongo
 bson
+pydantic
