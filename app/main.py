@@ -3,7 +3,20 @@ from generate_questions import generate_questions
 from suggest_dishes import suggest_dishes
 
 def lambda_handler(event, context):
+    cors_headers = {
+        "Access-Control-Allow-Origin": "*",  # or replace with "http://localhost:3000" or your frontend domain
+        "Access-Control-Allow-Headers": "Content-Type",
+        "Access-Control-Allow-Methods": "OPTIONS,POST"
+    }
     try:
+        # Handle preflight request
+        if event.get("httpMethod") == "OPTIONS":
+            return {
+                "statusCode": 200,
+                "headers": cors_headers,
+                "body": json.dumps({"message": "CORS preflight"})
+            }
+
         body = json.loads(event.get('body', '{}'))
         merchant_id = body.get('merchant_id', {})
         menu_id = body.get('menu_id', {})
@@ -18,6 +31,7 @@ def lambda_handler(event, context):
         else:
             response = {
                 'statusCode': 400,
+                'headers': cors_headers,
                 'body': json.dumps({'error': 'Invalid path'})
             }
 
@@ -25,11 +39,13 @@ def lambda_handler(event, context):
         if 'error' in response:
             return {
                 'statusCode': 500,
+                'headers': cors_headers,
                 'body': json.dumps(response)
             }
 
         return {
             'statusCode': 200,
+            'headers': cors_headers,
             'body': json.dumps(response)
         }
 
@@ -37,5 +53,6 @@ def lambda_handler(event, context):
         # Gestisci eventuali errori
         return {
             'statusCode': 500,
+            'headers': cors_headers,
             'body': json.dumps({'error': str(e)})
         }
