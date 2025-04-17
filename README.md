@@ -139,3 +139,8 @@ The **Menu Advisor Model** is deployed to **AWS Lambda** and exposed via **AWS A
 
 You can test the endpoints using the `.http` files into `api` folder.
 <br />Have a look at this [README.md](api/README.md) file for more info.
+
+## 🚀 Demo
+
+To see how the **Menu Advisor Model** works in practice, check out the client project: [Menu Advisor Client](https://github.com/pacchio/menu-advisor-client). 🖥️✨
+<br>This repository demonstrates the integration of the backend service with a user-facing application, showcasing the end-to-end functionality of menu-based recommendations. 
