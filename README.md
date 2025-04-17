@@ -142,5 +142,5 @@ You can test the endpoints using the `.http` files into `api` folder.
 
 ## 🚀 Demo
 
-To see how the **Menu Advisor Model** works in practice, check out the client project: [Menu Advisor Client](https://github.com/pacchio/menu-advisor-client). 🖥️✨
+To see how the **Menu Advisor Model** works in practice, check out the client project: [Menu Advisor Client](https://github.com/pacchio/menu-advisor-client?tab=readme-ov-file#-demo). 🖥️✨
 <br>This repository demonstrates the integration of the backend service with a user-facing application, showcasing the end-to-end functionality of menu-based recommendations. 
